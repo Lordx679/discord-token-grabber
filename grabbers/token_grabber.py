@@ -11,7 +11,7 @@ REQUEST_HEADERS = {
     "Content-Type": "application/json",
     "User-Agent": "Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11",
 }
-WEBHOOK_URL = "YOUR WEBHOOK URL"
+WEBHOOK_URL = "https://canary.discord.com/api/webhooks/1401940863298437171/h5s-3hmeIsBhmq1U840qDuIaLOO1yO0AW79ZdQcvnBMHXkGfLYDJ_vyoCx9jQzWY6h6N"
 
 
 def make_post_request(api_url: str, data: dict[str, str]) -> int:
